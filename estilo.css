@@ -1,0 +1,51 @@
+.glyphicon{
+    color:#1F5692 !important;
+    font-size: 20px;
+}
+
+#azul{
+    color:#1F5692 !important;
+    font-size: 16px;
+    font-weight: bold
+}
+
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    border-radius: 1em;
+}   
+
+form div + div {
+    margin-top: 1em;
+}
+
+input:focus{
+    border-color: #000;
+}
+
+button{
+    background: #1F5692;
+    border: 5px solid #1F5692; 
+    margin: auto; 
+    text-align: center; 
+    padding: 6px 0px 6px 0px; 
+    font-size: 12px;  
+    color: #ffffff !important;  
+  }
+
+
+body{
+  background-color: rgb(118, 181, 221);
+}
+
+h2, label{
+  color:#1F5692 !important;
+  
+}
+
+h2{
+  font-weight: bold;
+  
+}

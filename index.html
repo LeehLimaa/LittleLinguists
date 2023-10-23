@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>LittleLinguists</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Sistema web para ensinar ingles para as criancas">
+        <meta name="keywords" content="Inglês, crianças">
+        <meta name="author" content="Leticia de Lima Batista">
+        <link rel="icon" type="image/png" href="img/icone.png"/>
+        <link href="estilo.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Menu -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></button>
+                    <img class="navbar-brand" href="#" src="img/logo.png"/>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="link"><a href="mensagem.php" target="_self"  title="Entre em contato conosco!" class="glyphicon glyphicon-envelope"></a></li>
+                        <li class="link"><a href="perfil.php" target="_self"  title="Entre agora!" class="glyphicon glyphicon-user"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+       <!-- Formatação da imagem de fundo -->
+       <style>
+        body{
+            background-color: #E1EFFF;
+        }
+        .jumbotron{
+            background-color: #E1EFFF;
+            font-size: 14px;
+            color: white !important;
+            padding: 20px 80px; 
+            margin: 30px;
+            border-radius: 20px;
+            
+        }
+        #laranja{
+            background-color: #F39B7A;
+        }
+        #amarelo{
+            background-color: #F0E58A;
+        }
+        #roxo{
+            background-color: #A777B5;
+        }
+        #rosa{
+            background-color: #F7B7C5;
+        }
+        footer {
+            text-align: center;
+            background-color: #1F5692;
+            color: #fff;
+        }
+        #carousel{
+            background-color: none;
+            color: none;
+        }
+    </style>
+    
+        <h1><br></h1>
+        <h1 class="text-center"><img src="img/background.png" class="img" width="1300" height="650"></h1>
+
+        <div class="jumbotron">
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <div class="jumbotron text-center" id="laranja">
+                            <h1>Propósito Educacional</h1><br>
+                            <p>O LittleLinguists tem como propósito fundamental cultivar a motivação das crianças no processo de aprendizagem da língua inglesa, por meio da utilização de recursos interativos e atividades lúdicas. Buscamos introduzir os jovens estudantes ao universo dos idiomas de maneira envolvente, estimulando neles um desejo contínuo de aprofundar seus conhecimentos. Reconhecemos que esse engajamento promoverá benefícios significativos em suas trajetórias pessoais e profissionais futuras.</p>
+                            <br>
+                        </div>      
+                    </div>
+
+                    <div class="item">
+                        <div class="jumbotron text-center" id="amarelo">
+                            <h1>Classificação Etária</h1><br>
+                            <p>O LittleLinguists é recomendado para crianças a partir de 7 anos de idade, momento em que estas já adquiriram habilidades rudimentares de leitura e escrita.
+                                Isso auxiliará a promover um ambiente de aprendizado adequado, no qual os jovens estudantes estarão mais aptos a aproveitar plenamente os recursos e lições oferecidos pelo nosso site.</p>
+                            <br>
+                        </div>     
+                    </div>
+
+                    <div class="item">
+                        <div class="jumbotron text-center" id="roxo">
+                            <h1>Exploração Temática Visual</h1><br>
+                            <p>O programa LittleLinguists é uma jornada educativa que apresenta uma variedade de módulos repletos de imagens cativantes, acompanhadas dos nomes e traduções correspondentes. Cada módulo abrange desde vocabulário essencial até questões interativas que promovem a aplicação prática do conhecimento. </p>
+                            <br>
+                        </div>      
+                    </div>
+
+                    <div class="item">
+                        <div class="jumbotron text-center" id="rosa">
+                            <h1>Suporte ao cliente</h1><br>
+                            <p>Estamos aqui para ajudar! Caso você tenha alguma dúvida ou precise de assistência, nossa equipe de suporte está à disposição. Basta clicar no botão abaixo para nos enviar uma mensagem. Sua jornada de aprendizado é importante para nós, e estamos comprometidos em proporcionar a melhor experiência possível.</p>
+                            <a href="mensagem.php" class="btn btn-primary btn-block" style="background-color: #ffffff; color:#F7B7C5; border:#ffffff"><strong>Enviar Mensagem ao Suporte</strong></a>
+                            <br>
+                        </div>      
+                    </div>
+
+                </div>
+
+                <a href="#myCarousel" role="button" data-slide="prev" id="carousel">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Voltar</span>
+                </a>
+                
+                <a  href="#myCarousel" role="button" data-slide="next" id="carousel">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+        
+        <a class="text-center"><img src="img/footer.png" class="img" width="1518" height="700"></a>
+
+        <footer><br>&copy; 2023 Letícia de Lima Batista<br><br></footer>
+    </body>
+</html>
+
